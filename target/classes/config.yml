@@ -1,0 +1,25 @@
+messages:
+  mute_tutorial: "§a§lMute\n\n\n§8▪ §7Muta un utente: §a/mute <username> <1s/1m/1h/1d> <motivazione>\n§8▪ §7Rimuovi un mute: §a/unban <username>\n§8▪ §7History: §a/mute-history <username>"
+  ban_tutorial: "§a§lBan\n\n\n§8▪ §7Banna un utente: §a/ban <username> <1h/1d/1m/1y> <motivazione>\n§8▪ §7Rimuovi un ban: §a/unban <username>\n§8▪ §7History: §a/ban-history <username>"
+  teleport_tutorial: "§a§lTeleport\n\n\n§8▪ §7Tp a: §a/teleport <x> <y>\n§8▪ §7Tp verso un player: §a/teleport <player>\n§8▪ §7Tp: <playerDaTippare> <playerDiDestinazione>\n"
+  vanish-unactive: " §aHai disattivato con successo la vanish"
+  teleport_failed: " §cNon è stato possibile teletrasportarti"
+  teleport_success: " §aTeletrasporto avvenuto con successo."
+  user_not_found: " §cNon sono stati trovati ban / mutes per questo utente"
+  vanish-active: " §aHai attivato con successo la vanish"
+  wrong_command_use: " §cUso scorretto del comando"
+  already_muted: " §cQuesto giocatore è già mutato"
+  already_banned: " §cQuesto giocatore è già bannato"
+  error: " §cE' stato riscontrato un errore durante l'esecuzione del comando"
+  banned: " §aHai bannato con successo questo giocatore"
+  unbanned: " §aHai sbannato con successo questo giocatore"
+  website: "https://craftopoly.it"
+  discord: "https://discord.gg.ccccccc"
+  muted: " §aHai mutato con successo questo giocatore"
+  unmuted: " §aHai smutato con successo questo giocatore"
+  no_chat_enough_permissions: " §cNon hai abbastanza permessi per scrivere in questa chat"
+  no_enough_permissions: " §cNon hai abbastanza permessi per eseguire questo comando"
+  message_failed: " §cE' stato riscontrato un errore durante l'invio del messaggio"
+
+settings:
+  api_url: http://localhost:5000/api/v1

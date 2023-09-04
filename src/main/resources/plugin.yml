@@ -1,0 +1,19 @@
+name: CO_Staff
+version: '${project.version}'
+main: it.craftopoly.co_staff.CO_Staff
+api-version: 1.20
+commands:
+  vanish:
+    aliases: []
+  chat:
+    aliases: [ c ]
+  teleport:
+    aliases: [ tp ]
+  mute:
+    aliases: [ ]
+  ban:
+    aliases: [ ]
+  unmute:
+    aliases: [ ]
+  unban:
+    aliases: [ ]

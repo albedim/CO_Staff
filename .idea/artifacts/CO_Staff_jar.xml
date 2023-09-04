@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CO_Staff:jar">
+    <output-path>$PROJECT_DIR$/../../../MinecraftServer/plugins</output-path>
+    <root id="archive" name="CO_Staff.jar">
+      <element id="module-output" name="CO_Staff" />
+    </root>
+  </artifact>
+</component>
