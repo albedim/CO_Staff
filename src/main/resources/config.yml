@@ -1,7 +1,7 @@
 messages:
-  mute_tutorial: "§a§lMute\n\n\n§8▪ §7Muta un utente: §a/mute <username> <1s/1m/1h/1d> <motivazione>\n§8▪ §7Rimuovi un mute: §a/unban <username>\n§8▪ §7History: §a/mute-history <username>"
-  ban_tutorial: "§a§lBan\n\n\n§8▪ §7Banna un utente: §a/ban <username> <1h/1d/1m/1y> <motivazione>\n§8▪ §7Rimuovi un ban: §a/unban <username>\n§8▪ §7History: §a/ban-history <username>"
-  teleport_tutorial: "§a§lTeleport\n\n\n§8▪ §7Tp a: §a/teleport <x> <y>\n§8▪ §7Tp verso un player: §a/teleport <player>\n§8▪ §7Tp: <playerDaTippare> <playerDiDestinazione>\n"
+  mute_tutorial: "§a§lMute\n\n\n §8▪ §7Muta un utente: §a/mute <username> <1s/1m/1h/1d> <motivazione>\n §8▪ §7Rimuovi un mute: §a/unmute <username>\n §8▪ §7History: §a/mute-history <username>"
+  ban_tutorial: "§a§lBan\n\n\n §8▪ §7Banna un utente: §a/ban <username> <1h/1d/1m/1y> <motivazione>\n §8▪ §7Rimuovi un ban: §a/unban <username>\n §8▪ §7History: §a/ban-history <username>"
+  teleport_tutorial: "§a§lTeleport\n\n\n §8▪ §7Tp a: §a/teleport <x> <y>\n §8▪ §7Tp verso un player: §a/teleport <player>\n §8▪ §7Tp: §a/teleport <playerDaTippare> <playerDiDestinazione>\n"
   vanish-unactive: " §aHai disattivato con successo la vanish"
   teleport_failed: " §cNon è stato possibile teletrasportarti"
   teleport_success: " §aTeletrasporto avvenuto con successo."

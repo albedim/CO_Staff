@@ -28,7 +28,9 @@ public class MuteExecutor implements CommandExecutor
                 String res = HttpCall.mute(player.getUniqueId().toString(), targetName, time, reason);
                 player.sendMessage(res);
             }else{
+                player.sendMessage("§8-------------------------------------");
                 player.sendMessage(CO_Staff.getInstance().getConfig().getString("messages.mute_tutorial"));
+                player.sendMessage("§8-------------------------------------");
             }
         }
         return false;

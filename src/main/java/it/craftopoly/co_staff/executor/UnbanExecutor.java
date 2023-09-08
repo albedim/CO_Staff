@@ -27,7 +27,9 @@ public class UnbanExecutor implements CommandExecutor
                 String res = HttpCall.unban(player.getUniqueId().toString(), username);
                 player.sendMessage(res);
             }else{
+                player.sendMessage("§8-------------------------------------");
                 player.sendMessage(CO_Staff.getInstance().getConfig().getString("messages.ban_tutorial"));
+                player.sendMessage("§8-------------------------------------");
             }
         }
         return false;

@@ -48,7 +48,9 @@ public class TeleportExecutor implements CommandExecutor
                             player.sendMessage(CO_Staff.getInstance().getConfig().getString("messages.teleport_failed"));
                     }
                 }else{
+                    player.sendMessage("§8-------------------------------------");
                     player.sendMessage(CO_Staff.getInstance().getConfig().getString("messages.teleport_tutorial"));
+                    player.sendMessage("§8-------------------------------------");
                 }
             }else{
                 player.sendMessage(CO_Staff.getInstance().getConfig().getString("messages.no_enough_permissions"));

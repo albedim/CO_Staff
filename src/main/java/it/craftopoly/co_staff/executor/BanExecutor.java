@@ -41,7 +41,9 @@ public class BanExecutor implements CommandExecutor
                         target.kickPlayer(getBanMessage(ban));
                 }
             }else{
+                player.sendMessage("§8-------------------------------------");
                 player.sendMessage(CO_Staff.getInstance().getConfig().getString("messages.ban_tutorial"));
+                player.sendMessage("§8-------------------------------------");
             }
         }
         return false;
